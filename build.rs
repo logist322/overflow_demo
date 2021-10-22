@@ -8,8 +8,6 @@ fn main() {
         .header("include/wrapper.hpp")
         .clang_arg("--include-directory=include")
         .clang_arg("--include-directory=include/third_party/abseil-cpp")
-        .clang_arg("--include-directory=include/third_party/googletest/src/googletest/include")
-        .clang_arg("--include-directory=include/third_party/googletest/src/googlemock/include")
         .clang_arg("-DWEBRTC_WIN")
         .clang_arg("-DNOMINMAX")
         .clang_arg("-DWEBRTC_USE_BUILTIN_ISAC_FLOAT")
