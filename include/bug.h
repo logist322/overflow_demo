@@ -1,8 +1,3 @@
-#include "api/rtp_packet_info.h"
+#include <vector>
 
-namespace webrtc {
-class RTC_EXPORT RtpPacketInfos {
- public:
-  using const_iterator = std::vector<RtpPacketInfo>::const_iterator;
-};
-}
+using a = std::vector<long>::const_iterator;
